@@ -1,1 +1,17 @@
 // Mixins Here
+
+.flexboxCentered(){
+    display:flex;
+    margin:0 auto;
+}
+
+.btn(@button_text, @button_width, @button_height, @button_color){
+    padding: @button_width @button_height;
+    font-size: @button_text;
+    border-radius: 8px;
+    background-color:@button_color;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
